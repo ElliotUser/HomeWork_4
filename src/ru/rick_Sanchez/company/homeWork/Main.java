@@ -24,10 +24,10 @@ public class Main {
 
         System.out.println("--------------------------------------------------------------");
 
-        int searchAge = 40;
-        System.out.println("Информация о сотрудниках чей возраст привышает "+searchAge +" лет:" + '\n');
+        int age = 40;
+        System.out.println("Информация о сотрудниках чей возраст привышает "+age +" лет:" + '\n');
         for(int i = 0; i < arrEmployees.length; i++) {
-            if(arrEmployees[i].getAge() > searchAge){
+            if(arrEmployees[i].getAge() > age){
                 arrEmployees[i].showAllInfo();
             }
         }
