@@ -17,8 +17,8 @@ public class Employee {
         id = count++;
     }
 
-    public int toRaiseWages(int agePerson, int increaseSalary){
-        if(age > agePerson){
+    public int toRaiseWages(int searchAge, int increaseSalary){
+        if(age > searchAge){
             return salary+=increaseSalary;
         }return salary;
     }
