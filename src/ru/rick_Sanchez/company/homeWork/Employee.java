@@ -17,9 +17,9 @@ public class Employee {
         id = count++;
     }
 
-    public int toRaiseWages(){
-        if(age > 45){
-            return salary+=5000;
+    public int toRaiseWages(int agePerson, int increaseSalary){
+        if(age > agePerson){
+            return salary+=increaseSalary;
         }return salary;
     }
 

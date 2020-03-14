@@ -24,17 +24,19 @@ public class Main {
 
         System.out.println("--------------------------------------------------------------");
 
-        int age = 40;
-        System.out.println("Информация о сотрудниках чей возраст привышает "+age +" лет:" + '\n');
+        int agePerson = 40;
+        System.out.println("Информация о сотрудниках чей возраст привышает "+agePerson +" лет:" + '\n');
         for(int i = 0; i < arrEmployees.length; i++) {
-            if(arrEmployees[i].getAge() > age){
+            if(arrEmployees[i].getAge() > agePerson){
                 arrEmployees[i].showAllInfo();
             }
         }
 
+        agePerson = 45;
+        int increaseSalary = 5000;
         for(int j = 0; j < arrEmployees.length; j++) {
-            if(arrEmployees[j].getAge() > 45) {
-                arrEmployees[j].toRaiseWages();
+            if(arrEmployees[j].getAge() > agePerson) {
+                arrEmployees[j].toRaiseWages(agePerson,increaseSalary);
                 System.out.print(arrEmployees[j].getFirstName() + " " +arrEmployees[j].getSalary()+'\n');
 
             }
