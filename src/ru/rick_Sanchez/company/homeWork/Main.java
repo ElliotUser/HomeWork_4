@@ -53,8 +53,8 @@ public class Main {
                 ageSum += arrEmployees[a].getAge();
             }
         }
-        System.out.println("Средняя заработная плата составляет: " + salarySum/arrEmployees.length + '\n' +
-                            "Средний возраст сотрудников составляет: " + ageSum/arrEmployees.length);
+        System.out.println("Средняя заработная плата составляет: " + salarySum/arrEmployees.length + "$."+'\n' +
+                            "Средний возраст сотрудников составляет: " + ageSum/arrEmployees.length+" лет.");
 
 
 
