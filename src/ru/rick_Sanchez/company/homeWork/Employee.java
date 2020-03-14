@@ -34,13 +34,6 @@ public class Employee {
     }
 
 
-
-    public void salaryHuge(int age) {
-        if(age > 45) {
-            salary += 5000;
-        }
-    }
-
     public String getFirstName() {
         return firstName;
     }
