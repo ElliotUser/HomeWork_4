@@ -1,11 +1,6 @@
 package ru.rick_Sanchez.company.homeWork;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-
-import java.util.Random;
-
 public class Employee {
-    Random random = new Random();
     static int count = 1;
     private String firstName;
     private String position;
@@ -37,6 +32,7 @@ public class Employee {
         System.out.println("First name: " + getFirstName() + '\n'+"Position: " + position
                 + '\n');
     }
+
 
 
     public void salaryHuge(int age) {

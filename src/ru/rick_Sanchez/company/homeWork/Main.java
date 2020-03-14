@@ -24,7 +24,7 @@ public class Main {
 
         System.out.println("--------------------------------------------------------------");
 
-        int searchAge = 1;
+        int searchAge = 40;
         System.out.println("Информация о сотрудниках чей возраст привышает "+searchAge +" лет:" + '\n');
         for(int i = 0; i < arrEmployees.length; i++) {
             if(arrEmployees[i].getAge() > searchAge){
